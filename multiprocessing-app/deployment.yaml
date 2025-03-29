@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: flask-container
-        image: rmanjunatha/my-flask-app:v2
+        image: rmanjunatha/my-flask-app:v5
         ports:
         - containerPort: 5001
         env:
